@@ -4,6 +4,7 @@ int secondNumber;
 firstNumber = new Random().Next(1, 100);
 secondNumber = new Random().Next(1, 100);
 
+//То, что ниже можно скопировать и вставить
 if (firstNumber==secondNumber) {
     Console.WriteLine($"Введенные числа равны `{firstNumber}`");
 } else {
