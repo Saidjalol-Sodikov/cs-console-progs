@@ -11,6 +11,6 @@ if (firstNumber==secondNumber) {
     if (firstNumber<secondNumber) {
         Console.WriteLine($"Первое число `{firstNumber}` меньше чем второе число `{secondNumber}`");
     } else {
-        Console.WriteLine($"Первое число `{secondNumber}` меньше чем второе число `{firstNumber}`");
+        Console.WriteLine($"Первое число `{firstNumber}` больше чем второе число `{secondNumber}`");
     };
 };
