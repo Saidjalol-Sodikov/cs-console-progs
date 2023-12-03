@@ -3,24 +3,33 @@ int numX = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите значение Y:");
 int numY = Convert.ToInt32(Console.ReadLine());
 
+int result;
+
 if (numX == 0 || numY == 0) {
-    Console. WriteLine("Вводите значения отличные от нуля");
+    result = 0;
 } 
 else {
     if (numX > 0) {
         if (numY > 0) {
-            Console.WriteLine("Точка находиться на координатной четверти 1");
+            result = 1;
         } 
         else {
-            Console.WriteLine("Точка находиться на координатной четверти 4");
+            result = 4;
         }
    }
    else {
         if (numY > 0) {
-           Console.WriteLine("Точка находиться на координатной четверти 2");
+           result = 2;
         } 
         else {
-            Console.WriteLine("Точка находиться на координатной четверти 3");
+            result = 3;
         }
    }
+}
+
+if (result == 0) {
+    Console.WriteLine("Вводите значения отличные от нуля");
+} 
+else {
+    Console.WriteLine("Номер координатной четверти плоскости: "+result);
 }
