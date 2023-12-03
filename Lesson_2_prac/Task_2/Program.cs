@@ -1,4 +1,4 @@
-﻿Console.Write("Введите трёхзначное чило: ");
+﻿Console.Write("Введите трёхзначное чиcло: ");
 int numMain = Convert.ToInt32(Console.ReadLine());
 int desyat, edin, result=1;
 
