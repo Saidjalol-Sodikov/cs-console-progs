@@ -5,6 +5,7 @@ int desyat, edin, result=1;
 desyat = (numMain%100-numMain%10)/10;
 edin = numMain%10;
 if (desyat == 0 && edin == 0) result = 0;
+//result = Math.Pow(desyat, edin);
 for (int i = 1; i<=edin; i++) {
     result=result*desyat;
 }
