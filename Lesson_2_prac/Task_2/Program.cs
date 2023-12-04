@@ -8,4 +8,4 @@ if (desyat == 0 && edin == 0) result = 0;
 for (int i = 1; i<=edin; i++) {
     result=result*desyat;
 }
-Console.WriteLine(result);
+Console.WriteLine("Число в нужной степени: "+result);
