@@ -7,7 +7,7 @@ int[] arrey = new int[arreySize];
 int result = 0;
 for (int i = 0; i < arreySize; i++)
 {
-    arrey[i] = new Random().Next(1, 100);
+    arrey[i] = new Random().Next(1, 101);
     Console.Write(arrey[i] + " ");
     
     //Решение задачи
